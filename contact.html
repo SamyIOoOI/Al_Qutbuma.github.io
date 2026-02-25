@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Al-Qutbuma</title>
+        <style>
+        body{
+            background-color: firebrick;
+            margin: 1;
+            text-align: center;
+        }
+        img{
+            width: 24%;
+            height: 200px;
+            margin: 0.5%;
+            object-fit: contain;
+        }
+        button {
+            background-color: rgb(44, 6, 126);
+            color: white;
+            padding: 5px 10px;
+            margin: 1px;
+        }
+        </style>
+    </head>
+    <body style="color: white; opacity: 5; font-family:cursive; font-size: larger;">
+        <h1>Contact Al-Qutbuma</h1>
+        <form action="sent.html" method="post" style="background-color: rgb(105, 4, 4); display: inline-block; padding: 18px; border-radius: 5px;">
+            <label for="username">Name:</label>
+            <input type="text" id="username" name="User" required><br><br>
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" name="Useremail" required><br><br>
+            <label for="Message">Message</label>
+            <textarea id="Message" name="Usermessage" placeholder="Write your message here" required></textarea><br><br>
+            <label for="gender">What's your gender?</label><br><br>
+            <input type="radio" name="gender" value="male">Male<br><br>
+            <input type="radio" name="gender" value="female">Female<br><br>
+            <label for="scared">Do you think you're safe after you send this message?</label><br><br>
+            <input type="checkbox" name="scared" value="Yes">Yes<br><br>
+            <button type="submit" style="width: 100px">Submit</button><br><br>
+            <button type="reset">Reset</button><br><br>
+        </form>
+    </body>
+</html>
